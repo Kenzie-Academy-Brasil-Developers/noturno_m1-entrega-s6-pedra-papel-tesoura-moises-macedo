@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="/img/icon-titulo.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+
+    <title>Jokenpô</title>
+</head>
+<body>
+    <h1 class="titulo-jogo">Pedra - Papel - Tesoura </h1>
+    <p class="resultado">&nbsp</p>
+
+    <section class='container-geral'>
+        <div class="container-jogador">
+            <p class="nome-jogador">&nbsp</p>
+            <ul class="container-lista">
+                <li>
+                    <figure>
+                        <img src="/img/hand-back-fist.png" alt="" class="img-jogo hand-back-fist">
+                        <figcaption>Pedra</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/img/hand-open.png" alt="" class="img-jogo hand-open">
+                        <figcaption>Papel</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/img/hand-peace.png" alt="" class="img-jogo hand-peace">
+                        <figcaption>Tesoura</figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <p class="escolhaJogador">&nbsp</p>
+            <p class="placarJogador">0</p>
+        </div>
+        <img src="/img/vs.png" alt="" class="vs">
+        <div class="container-computador">
+            <p class="nome-computador">Computador</p>
+            <ul class="container-lista">
+                <li>
+                    <figure>
+                        <img src="/img/hand-back-fist.png" alt="" class="img-jogo hand-back-fist">
+                        <figcaption>Pedra</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/img/hand-open.png" alt="" class="img-jogo">
+                        <figcaption>Papel</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/img/hand-peace.png" alt="" class="img-jogo">
+                        <figcaption>Tesoura</figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <p class="escolhaComputador">&nbsp</p>
+            <p class="placarComputador">0</p>
+        </div>
+        
+    </section>
+    <div class="containerButton">
+        <button type="submit" class="buttonJogarNovamente"><p>Começar Novamente</p></button>
+    </div>
+    <div class="containerRegras">
+        <h3>Regras</h3>
+
+        <ul class="listaRegras">
+            <ul>
+                <li>Pedra ganha de Tesoura</li>
+                <li>Tesoura ganha de Papel</li>
+                <li>Papel ganha de Pedra</li>
+            </ul>
+            <ul>
+                <li>Pedra perde para Papel</li>
+                <li>Papel perde para Tesoura</li>
+                <li>Tesoura perde para Pedra</li>
+            </ul>
+        </ul>
+
+    </div>
+    
+    
+
+     <script src="https://kit.fontawesome.com/3646840625.js" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>   
+</body>
+</html>
