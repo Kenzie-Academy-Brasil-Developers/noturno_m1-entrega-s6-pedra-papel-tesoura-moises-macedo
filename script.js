@@ -15,7 +15,6 @@ let pedra = document.querySelector('.hand-back-fist');
 const cliqueJogador = document.querySelector('.escolhaJogador');
 
 
-
 function cliquePedra () {
     escolhaJogador= 1
 
@@ -59,7 +58,6 @@ const resultadoJogador = document.querySelector('.placarJogador');
 const resultadoComputador = document.querySelector('.placarComputador');
 
 
-
 let escolhaComputador = 0;
 //-----------------placar----------------------------//
 
@@ -68,9 +66,7 @@ let placarComputador = 0
 
 function jogando (item){
     const resultado = document.querySelector('.resultado')
-    
-
-    
+        
 
 //-----------------Random Computador----------------------------//
 
@@ -81,7 +77,6 @@ function jogando (item){
     else if(escolhaComputador === 3) randomComputador.innerText="Tesoura";
     
 //-----------------verificando ganhador----------------------------//
-
     
 
     //pedra 1
@@ -132,7 +127,6 @@ function jogando (item){
     //console.log(placarComputador)
     //console.log(placarJogador)
     
-
 
 }
 const button = document.querySelector('.buttonJogarNovamente');
