@@ -6,7 +6,6 @@ html{
 }
 
 
-
 .titulo-jogo{
 
     text-align: center;
@@ -46,7 +45,6 @@ html{
     display: flex;
     
     justify-content: space-evenly;
-
     
 }
 
@@ -55,7 +53,6 @@ html{
     height: 50px;
     margin: 0px 10px;
     
-
 }
 
 .nome-jogador, .nome-computador{
@@ -73,7 +70,6 @@ html{
 
    border-bottom: 2px soldi black;
 
-
 }
 .container-lista>li{
     
@@ -85,8 +81,6 @@ html{
 .hand-back-fist{
     margin-top: 18px;
 }
-
-
 
 
 .container-jogador, .container-computador{
@@ -159,7 +153,6 @@ html{
 
     color: #273c75
     
-
 }
 
 
